@@ -1,0 +1,60 @@
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.header
+{
+    text-align: center;
+    font-size: 8.5pt;
+	font-family: Verdana;
+}
+#name{
+    font-size:14pt;
+    font-weight:bold;
+}
+
+
+
+.fields{
+    font-family:Verdana;
+    font-size: 8.5pt;
+    text-align: left;
+   
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 8.5pt;
+    text-align: left;
+    font-family:Verdana;
+    line-height: 0%;
+}
+
+#fields-title{
+    text-align:left;
+}
+#loc{
+    float: right;
+    font-weight:bold;
+}
+
+#date{
+    float:right;
+    font-size: 8.5pt;
+    font-family:Verdana; 
+}
+
+#groups{
+    font-weight: bold;
+    text-align:left;
+
+}
+hr{
+    border: 0.05px solid black;    
+}
+
+
+
+

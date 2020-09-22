@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>CV form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href= "index.css"/>
+    <script type= "text/javascript" scr="index.js" > </script>
+   
+    </head>
+
+    <body>
+    <div> 
+        <img src="ashesi.jpeg" alt="Ashesi picture">
+        <h1 Fill Ashesi CV Form ></h1>
+            <form id="fillform" class="form-box" method="GET" action='cv.html'>
+
+                <div class="field">
+                    <label for="f_name">First Name</label>
+                    <input type="text" id="f_name" name="f_name"  placeholder="first name" required>
+                </div>
+
+                <div class="field">
+                    <label for="m_name">Middle Name</label>
+                    <input type="text" id="m_name" name="m_name"  placeholder="middle name " >
+                </div>
+
+                <div class="field">
+                    <label for="l_name">Last Name</label>
+                    <input type="text" id="l_name" name="l_name"  placeholder="last name" required>
+                </div>
+
+                
+                <div class="field">
+                    <label for="gender">Gender</label>
+                    <select id="gender" >
+                        <option value= "Male"> Male </option>
+                        <option value= "Female"> Female </option>
+                        <option value= "Other"> Other </option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for ="contact"> Phone Number</label>
+                    <input type="tel" id="contact" name="contact"  placeholder="+250787715689" required>
+                </div>
+
+                <div class="field">
+                    <label for ="email">Email</label>
+                    <input type="email" id="email" name="email"  placeholder="studentname@ahesi.edu.gh" required>
+                </div>
+
+                <div class="field">
+                    <label for ="address"> Address</label>
+                    <input type="text" id="address" name="address"  placeholder="kk 355 st" required >
+                </div>
+                
+                <button id="fillcv" type="submit" value="submit" > Fill CV</button>
+                <div class="errors" id="form-errors"></div>
+            </form>
+            </div>
+            
+    </body>
+
+</html>
+
